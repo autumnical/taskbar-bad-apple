@@ -25,7 +25,7 @@ windows smartscreen will probably scream at you because the code uses low-level 
 
 ```windres resources.rc -O coff -o resources.res```
 
-```gcc main.c resources.res -o BadApple.exe -lwinmm -mwindows```
+```gcc main.cpp resources.res -o BadApple.exe -lwinmm -mwindows```
 
 # 
 
